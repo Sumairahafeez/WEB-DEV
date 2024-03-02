@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash Board</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="chart.js"></script>
+</head>
+
+<body class = "bg-blue-300 ">
+  <header class="sm:w-auto md:w-auto lg:w-full  text-white body-font bg-blue-700  rounded-xl rounded-br-lg"  >
+    <div class="container px-5 py-8 mx-12 flex items-center sm:flex-row flex-col rounded-md">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        
+        <span class="  ml-3  text-green-500 text-3xl">XPENSE</span>
+      </a>
+    <div class="mx-12 border-l-2 border-gray-400 ">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+      <span class="text-xl font-bold text-white sm:mr-0 sm:pl-4  sm:border-gray-200 sm:py-0 sm:mt-0 mt-1">User
+       
+      </span>
+    </div>  
+   
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-white">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-white">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-white">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-white">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+     
+    </div>
+    <section class="text-gray-600 body-font">
+      <h1 class="text-white tracking-wider px-6 font-bold mx-32 text-4xl">HELLO!!</h1>
+      <h3 class="text-white tracking-wider mx-36 text-xl">Welcome Back!</h3></section>
+  </header>
+  
+        <div class=" p-10  flex flex-wrap flex-col w-full">
+            <div class="flex  w-full justify-center items-center    flex-wrap ">
+              <div class=" flex-col  bg-green-100  w-56 h-28 sm:w-auto justify-start sm:justify-start border-b-2   inline-flex  leading-none tracking-wider rounded-t border  border-b-green-600">
+                <a class="sm:px-6 py-3 p-4 tracking-wider mx-1 mt-0 title-font font-medium m-2"
+                >
+                Current Balance
+                
+
+                  
+                
+            </a>
+            
+            <div class="flex flex-row mx-6 ">
+              <a class="mt-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                
+              </a>
+              <h2 class="text-2xl justify-center mt-5">0</h2>
+              
+              <a class="w-12 justify-center ml-28 mt-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon text-green-500 stroke-current" viewBox="0 0 512 512">
+                  <rect x="48" y="144" width="416" height="288" rx="48" ry="48" fill="none" stroke-linejoin="round" stroke-width="32"/>
+                  <path d="M411.36 144v-30A50 50 0 00352 64.9L88.64 109.85A50 50 0 0048 159v49" fill="none" stroke-linejoin="round" stroke-width="32"/>
+                  <path d="M368 320a32 32 0 1132-32 32 32 0 01-32 32z"/>
+                </svg>
+              </a>
+            </div>
+              </div>  
+              
+                <div class="flex-col  bg-blue-100  w-56 h-28 sm:w-auto justify-start sm:justify-start border-b-2 m-5  inline-flex  leading-none tracking-wider rounded-t border  border-b-blue-600  ">
+                  <a
+                    class="sm:px-6 py-3 mx-12 w-56 h-28  sm:w-auto justify-center  sm:justify-start  title-font font-medium   leading-none  hover:text-gray-900 tracking-wider">
+                    Total Income
+                    
+
+                </a>
+                <div class="flex flex-row mx-6">
+                  <a class="mt-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                    
+                  </a>
+                  <h2 class="text-2xl justify-center">0</h2>
+                  
+                  <a class="w-12 justify-center ml-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon text-blue-400 stroke-current" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M352 368h112V256"/><path d="M48 144l121.37 121.37a32 32 0 0045.26 0l50.74-50.74a32 32 0 0145.26 0L448 352" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+
+                
+                  </a>
+                </div>
+                </div>  
+                
+                 
+                <div class=" w-56 h-28 sm:w-auto justify-start bg-slate-100 border-b-slate-500  sm:justify-start border-b-2 rounded-t-md">
+                  <a
+                    class="sm:px-6 py-3 mx-12  title-font font-medium inline-flex  leading-none  hover:text-gray-900 tracking-wider ">
+                    
+                      
+                    Total Expense
+                    
+             </a>
+             <div class="flex flex-row mx-6 justify-center mt-5">
+              <a class="mt-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                
+              </a>
+              <h2 class="text-2xl justify-center mt-1">0</h2>
+              
+              <a class="w-12 justify-center ml-20 mt-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon text-slate-500 stroke-current" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M352 144h112v112"/><path d="M48 368l121.37-121.37a32 32 0 0145.26 0l50.74 50.74a32 32 0 0045.26 0L448 160" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+   
+              </a>
+            </div>
+                </div>
+                
+             
+
+
+    
+    <main>
+        <div class=" p-1  sm:mx-1 mb-10 sm: w-full mt-5 border border-gray-300 rounded-md items-start flex flex-col bg-white">
+            <div class="container  flex flex-wrap  flex-col md:flex-row items-start">
+          
+                <nav class="md:ml-auto md:mr-auto m-1 flex flex-wrap items-start text-base tracking-wider ">
+                  <a class="mr-14 ml-0 hover:text-gray-900 font-bold text-xl align-top ">Analysis</a>
+                  <a class="ml-20 mr-5 hover:text-gray-900">Expense 
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14" height="14" width="14"><g id="circle--geometric-circle-round-design-shape-shapes-shape"><path id="Ellipse 492" fill="red" d="M0 7a7 7 0 1 0 14 0A7 7 0 1 0 0 7" stroke-width="1"></path></g></svg></a>
+                  <a class="mr-20 hover:text-gray-900">Income 
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14" height="14" width="14"><g id="circle--geometric-circle-round-design-shape-shapes-shape"><path id="Ellipse 492" fill="green" d="M0 7a7 7 0 1 0 14 0A7 7 0 1 0 0 7" stroke-width="1"></path></g></svg></a>
+                  <a class="ml-24 hover:text-gray-900"><form>
+                    <input type="month" class="rounded  border-black w-auto">Select Month
+                  </form></a>
+                  
+                </nav>
+                
+              </div>
+              <div class=" container  p-32 ">
+
+              </div>
+        </div>
+        
+    </main>
+    <footer>
+        <section class="text-gray-600 body-font sm:w-auto w-11/12 ">
+        
+            <div class="lg:w-full w-auto md:w-full  overflow-scroll rounded border border-gray-300 mb-10 md:px-36 md:py-24 bg-white">
+              <table class="table-auto w-auto text-left whitespace-no-wrap m-0">
+                <thead >
+                  <tr >
+                    <th class="px-4 py-3  title-font tracking-wider font-medium text-gray-900  bg-gray-100 rounded-tl rounded-bl text-2xl">Expense History</th>
+                    <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100"></th>
+                    <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100"></th>
+                    <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100"></th>
+                    
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900  bg-gray-100 ">Type</th>
+                    <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Amount</th>
+                    <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Date</th>
+                    <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Income Then</th>
+                   
+                  </tr>
+                  <tr>
+                    <td class="border-t-2 border-gray-200 px-4 py-3">Pro</td>
+                    <td class="border-t-2 border-gray-200 px-4 py-3">25 Mb/s</td>
+                    <td class="border-t-2 border-gray-200 px-4 py-3">25 GB</td>
+                    <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">$24</td>
+                    
+                  </tr>
+                  <tr>
+                    <td class="border-t-2 border-gray-200 px-4 py-3">Business</td>
+                    <td class="border-t-2 border-gray-200 px-4 py-3">36 Mb/s</td>
+                    <td class="border-t-2 border-gray-200 px-4 py-3">40 GB</td>
+                    <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">$50</td>
+                    
+                  </tr>
+                  <tr>
+                    <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Exclusive</td>
+                    <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">48 Mb/s</td>
+                    <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">120 GB</td>
+                    <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">$72</td>
+                    
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            
+        </section>
+    </footer>
+
+</body>
+
+</html>

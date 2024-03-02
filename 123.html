@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.tailwindcss.com"></script>
+  <title>Expense Tracking App - Transaction History</title>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Navigation Bar -->
+  <nav class="bg-blue-500 p-4 text-white">
+    <div class="container mx-auto">
+      <h1 class="text-2xl font-semibold">Expense Tracker</h1>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container mx-auto mt-8">
+
+    <!-- Transaction History -->
+    <div class="bg-white p-8 rounded-md shadow-md">
+      <h2 class="text-2xl font-semibold mb-4">Transaction History</h2>
+
+      <!-- Transaction List Table -->
+      <table class="w-full bg-white border rounded-md overflow-hidden">
+        <thead class="bg-gray-200">
+          <tr>
+            <th class="py-2 px-4 border-b">Date</th>
+            <th class="py-2 px-4 border-b">Amount</th>
+            <th class="py-2 px-4 border-b">Category</th>
+            <th class="py-2 px-4 border-b">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Example Transaction Rows -->
+          <tr>
+            <td class="py-2 px-4 border-b">2024-02-24</td>
+            <td class="py-2 px-4 border-b">$50.00</td>
+            <td class="py-2 px-4 border-b">Food</td>
+            <td class="py-2 px-4 border-b">Dinner at a local restaurant</td>
+          </tr>
+          <tr>
+            <td class="py-2 px-4 border-b">2024-02-23</td>
+            <td class="py-2 px-4 border-b">$30.00</td>
+            <td class="py-2 px-4 border-b">Utilities</td>
+            <td class="py-2 px-4 border-b">Monthly electricity bill</td>
+          </tr>
+          <!-- Add more rows as needed -->
+        </tbody>
+      </table>
+
+      <!-- Pagination -->
+      <div class="mt-4 flex justify-end">
+        <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Previous</button>
+        <button class="ml-2 bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Next</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

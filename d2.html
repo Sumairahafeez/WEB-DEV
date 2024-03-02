@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Include Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash Board</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="chart.js"></script>
+</head>
+
+<body class="bg-blue-300">
+  <header class="text-white body-font bg-blue-700 mx-1 rounded-xl rounded-br-lg">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col rounded-md">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        
+        <span class="ml-3  text-green-500 text-3xl">XPENSE</span>
+      </a>
+    <div class="mx-12 border-l-2 border-gray-400 ">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+      <span class="text-xl font-bold text-white sm:mr-0 sm:pl-4  sm:border-gray-200 sm:py-0 sm:mt-0 mt-1">User
+       
+      </span>
+    
+  </header>
+    <section class="text-gray-600 body-font">
+      <h1 class="text-gray-900 tracking-wider px-6 font-bold mx-32 text-4xl">HELLO!!</h1>
+      <h3 class="text-gray-500 tracking-wider mx-36 text-xl">Welcome Back!</h3>
+        <div class=" p-10  flex flex-wrap flex-col w-full ">
+            <div class="flex  w-full justify-center items-center flex-wrap ">
+              <div class=" flex-col   bg-green-100  w-56 h-28 sm:w-auto justify-start sm:justify-start border-b-2   inline-flex  leading-none tracking-wider rounded-t border  border-b-green-600 ">
+                <a class="sm:px-6 py-3 p-4 tracking-wider mx-12 mt-0 title-font font-medium m-2"
+                >
+                Current Balance
+                
+
+                  
+                
+            </a>
+            <div class="flex flex-row mx-6 justify-center mt-1">
+              <a class="mt-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                
+              </a>
+              <h2 class="text-2xl justify-center ">0</h2>
+              
+              <a class="w-12 justify-center ml-20 ">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon text-green-500 stroke-current" viewBox="0 0 512 512">
+                  <rect x="48" y="144" width="416" height="288" rx="48" ry="48" fill="none" stroke-linejoin="round" stroke-width="32"/>
+                  <path d="M411.36 144v-30A50 50 0 00352 64.9L88.64 109.85A50 50 0 0048 159v49" fill="none" stroke-linejoin="round" stroke-width="32"/>
+                  <path d="M368 320a32 32 0 1132-32 32 32 0 01-32 32z"/>
+                </svg>
+              </a>
+            </div>
+            
+              </div>  
+              
+                <div class="flex-col  bg-blue-100  w-56 h-28 sm:w-auto justify-start sm:justify-start border-b-2 m-5  inline-flex  leading-none tracking-wider rounded-t border  border-b-blue-600  ">
+                  <a
+                    class="sm:px-6 py-3 mx-12 w-56 h-28  sm:w-auto justify-center  sm:justify-start  title-font font-medium   leading-none  hover:text-gray-900 tracking-wider">
+                    Total Income
+                    
+
+                </a>
+                <div class="flex flex-row mx-6">
+                  <a class="mt-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                    
+                  </a>
+                  <h2 class="text-2xl justify-center">0</h2>
+                  
+                  <a class="w-12 justify-center ml-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon text-blue-400 stroke-current" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M352 368h112V256"/><path d="M48 144l121.37 121.37a32 32 0 0045.26 0l50.74-50.74a32 32 0 0145.26 0L448 352" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+
+                
+                  </a>
+                </div>
+                </div>  
+                
+                 
+                <div class=" w-56 h-28 sm:w-auto justify-start bg-slate-100 border-b-slate-500  sm:justify-start border-b-2 rounded-t-md">
+                  <a
+                    class="sm:px-6 py-3 mx-12  title-font font-medium inline-flex  leading-none  hover:text-gray-900 tracking-wider ">
+                    
+                      
+                    Total Expense
+                    
+             </a>
+             <div class="flex flex-row mx-6 justify-center mt-5">
+              <a class="mt-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                
+              </a>
+              <h2 class="text-2xl justify-center mt-1">0</h2>
+              
+              <a class="w-12 justify-center ml-20 mt-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon text-slate-500 stroke-current" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M352 144h112v112"/><path d="M48 368l121.37-121.37a32 32 0 0145.26 0l50.74 50.74a32 32 0 0045.26 0L448 160" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+   
+              </a>
+            </div>
+                </div>
+                
+             
+
+
+    </section>
+    <main >
+        <div class="container mx-auto mt-8 ">
+
+            <!-- Dashboard -->
+            <div class="bg-white p-8 rounded-md shadow-md ">
+        
+              <!-- Income vs Expense Chart -->
+              <div class="mb-8">
+                <h2 class="text-2xl font-semibold mb-4">Income vs Expense</h2>
+                <canvas id="incomeExpenseChart" width="400" height="200"></canvas>
+              </div>
+        
+              <!-- Other Dashboard Components (e.g., summary, recent transactions, etc.) -->
+              <!-- Add your additional dashboard components here -->
+        
+            </div>
+          </div>
+        
+          <!-- Script to initialize the chart -->
+          <script>
+            document.addEventListener('DOMContentLoaded', function () {
+              // Sample data
+              var ctx = document.getElementById('incomeExpenseChart').getContext('2d');
+              var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                  labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+                  datasets: [{
+                    label: 'Income',
+                    data: [2000, 2500, 1800, 3000, 2200, 2800],
+                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                  }, {
+                    label: 'Expenses',
+                    data: [1500, 2000, 1200, 2500, 1800, 2100],
+                    backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    borderWidth: 1
+                  }]
+                },
+                options: {
+                  scales: {
+                    x: { stacked: true },
+                    y: { stacked: true }
+                  }
+                }
+              });
+            });
+          </script>
+            
+    </main>
+    <footer class="bg-blue-300 shadow-lg">
+        <div class="container mx-auto mt-8 w-auto ">
+
+           
+            <div class="bg-white p-8 rounded-md shadow-md">
+              <h2 class="text-2xl font-semibold mb-4">Expense History</h2>
+        
+             
+              <div class="overflow-x-auto">
+                <table class="w-full bg-white border rounded-md ">
+                  <thead class="bg-gray-200 border border-b-gray-300">
+                    <tr>
+                      <th class="p-4">Date</th>
+                      <th class="p-4">Invoice Number</th>
+                      <th class="p-4">Category</th>
+                      <th class="p-4">Amount</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                   
+                    <tr class="mt-4 border border-b-gray-400 rounded-md">
+                      <td class="p-3 px-24">2024-02-24</td>
+                      <td class="p-3 px-24">123450</td>
+                      <td class="p-3 px-24">Food</td>
+                      <td class="p-3 px-24">$1200</td>
+                    </tr>
+                    
+                        <tr class="mt-4 border border-b-gray-400 rounded-md">
+                            <td class="p-3 px-24">2024-02-24</td>
+                            <td class="p-3 px-24">123450</td>
+                            <td class="p-3 px-24 ">Food</td>
+                            <td class="p-3 px-24">$1200</td>
+                          </tr>
+                   
+                    
+                      <tr class="mt-4 border border-b-gray-400 rounded-md">
+                        <td class="p-3 px-24">2024-02-24</td>
+                        <td class="p-3 px-24">123450</td>
+                        <td class="p-3 px-24">Food</td>
+                        <td class="p-3 px-24">$1200</td>
+                      </tr>
+                    <tr class="mt-4 border border-b-gray-400 rounded-md">
+                      <td class="p-3 px-24">2024-02-23</td>
+                      <td class="p-3 px-24">234567</td>
+                      <td class="p-3 px-24">Utilities</td>
+                      <td class="p-3 px-24">$300</td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                  </tbody>
+                </table>
+              </div>
+        
+              
+             
+            </div>
+          </div>
+    </footer>
+
+</body>
+
+</html>
+</body>
+</html>
